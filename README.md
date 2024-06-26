@@ -1,6 +1,8 @@
 # Pagina-Deportiva-con-persistencia
 Programa desarrollado en el lenguaje PHP con complementos de HTML- CSS para el TPC de la materia Seminario de Lenguajes Desarrollo Web con el objetivo de demostrar todo lo comprendido sobre el desarrollo Modelo Vista Controlador 
 
+Se realizo el desarrollo utilizando la herramienta XAMPP y Codeigniter ademas de MySQL para la persistencia de informacion.
+
 El programa cuenta con las funcionalidades que cumplen los siguientes requisitos:
 
 El sistema deberá tener por lo menos diez productos.
