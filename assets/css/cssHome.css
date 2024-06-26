@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Onest:wght@300;700&display=swap');
+
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem 0;
+
+}
+
+.divE {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+
+}
+
+.view input {
+
+    height: 50px;
+    width: 125px;
+    transition: 1s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+}
+
+.view input:hover {
+    background-color: rgb(255, 220, 63);
+    border-radius: 60px;
+}
+
+
+.cartelBienvenida {
+    text-align: center;
+    margin-top: 5rem;
+    
+    color: aliceblue;
+    font-family: 'Onest', sans-serif;
+}
+
+body {
+    background-color: rgb(69, 89, 107);
+}
+

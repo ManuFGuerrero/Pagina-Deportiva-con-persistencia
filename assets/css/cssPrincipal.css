@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@500&display=swap');
+.carousel-item img {
+    max-height: 100vh;
+    width: auto; /* Para mantener la proporción original */
+    
+}
+.carousel-item:before {
+    -webkit-box-shadow: inset 0 0 20rem rgba(0, 0, 0, 1);
+    box-shadow: inset 0 0 20rem rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+.texto {
+    font-family: 'Noto Sans Telugu', sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Cambiar la opacidad de los botones de control */
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1; /* Puedes ajustar el valor de opacidad según tus preferencias (0.7 es un ejemplo) */
+    filter: invert(108%);
+   
+}
+
+/* Cambiar la opacidad al pasar el mouse sobre los botones */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1; /* Cambia la opacidad al 100% al pasar el mouse sobre los botones */
+    color: white;
+    filter: invert(108%);
+}
+
+.contenedor{
+    height: 100vh;
+    display: flex;
+    
+}
+
+.subContenedor{
+   
+    width: 45%;
+    height: 100%;
+    background-color: #daa520;
+    box-shadow: 0px 49px 63px -19px rgba(0,0,0,0.41) inset;
+-webkit-box-shadow: 0px 49px 63px -19px rgba(0,0,0,0.41) inset;
+-moz-box-shadow: 0px 49px 63px -19px rgba(0,0,0,0.41) inset;
+}
+
+
+.subContenedor2{
+    height: 100%;
+    width: 55%;
+    background-image: url("https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/d5996cae-1258-4ba6-a099-dfd3d4e04742/c%C3%B3mo-elegir-el-calzado-de-f%C3%BAtbol-para-cancha-cubierta-adecuado-para-ti.jpg");
+    background-position: center;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-position-x: -50px;
+    -webkit-box-shadow: inset 0 0 20rem rgba(0, 0, 0, 1);
+    box-shadow: inset 0 0 20rem rgba(0, 0, 0, 1);
+    
+}
+
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans Telugu', sans-serif;
+    color: aliceblue;
+    
+}
+.informacion h2 {
+    align-self: center;
+    justify-content: center;
+    font-size: 60px;
+    margin-bottom: 100px;
+    text-shadow: #ffe985 1px 1px 10px;
+}
+
+.informacion p {
+    margin: 0px 30px;
+}

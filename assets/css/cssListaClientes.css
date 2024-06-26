@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wght@500&display=swap');
+body {
+
+    background-image: url("https://www.pythagorasinboots.com/wp-content/uploads/2021/04/steven-gerrard-sydney-fc-v-liverpool-friendly-24052017_bw8iz3ayp9vw10qqj8x3i4pta.jpg");
+    background-position: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: 'Lato', sans-serif;
+}
+table {
+    background: rgba(255, 255, 255, 1 );
+    
+    border: 5px solid rgb(116, 116, 116);
+    color: #000;
+    padding: 1rem;
+    
+}
+td div {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+tr {
+    padding: 1rem;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+td {
+    padding: 0.5rem;
+    border-bottom: 3px solid   #000000;
+    border-right: 3px solid   #000000;
+    padding: 1.5rem;
+}
+
+td a{
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px #fff;
+}
+
+td button{
+
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px #fff;
+    padding: 0.5rem;
+}
+
+td button:hover {
+    background-color: rgb(255, 211, 68);
+    
+}
+
+td a:hover {
+    background-color: rgb(255, 211, 68);
+    
+}
+th {
+    padding: 0.5rem;
+    border: none;
+}
+
+.acciones{
+   display: flex;
+   border:none;
+   padding: 0.7rem;
+   justify-content: center;
+   align-items: center;
+  
+}
+
+
+
+ .cajaProductos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    flex-direction: column;
+ }
+
+ h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-shadow: 1px 1px 5px #fff;
+ }
+
+.actualizarProductos{
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 109, 51);
+    border-radius: 5px;
+    transition: 0.5s;
+    
+    padding: 0.5rem;
+    
+}
+
+.actualizarProductos:hover {
+    box-shadow: 1px 1px 10px #ff0505;
+    background-color: rgb(255, 58, 58);
+    color: #fff;
+    font-size: 17px;
+}
